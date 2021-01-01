@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<groomingservice>
+  <section name="In da house services">
+    <service>
+      <item>Wash and Blowdry - Small breeds</item>
+      <price>45.95</price>
+    </service>
+    <service>
+      <item>Wash and Blowdry - Medium breeds</item>
+      <price>75.95</price>
+</service>
+    <service>
+      <item>Wash and Blowdry - Large and big breeds</item>
+      <price>105.95</price>
+    </service>
+  </section>
+  <section name="Paws and hair">
+    <service>
+      <item>Trim nails</item>
+      <price>10.95</price>
+    </service>
+    <service>
+      <item>Mosturize pads</item>
+      <price>18.95</price>
+    </service>
+    <service>
+      <item>Styling and cuttign hair</item>
+      <price>58.96</price>
+    </service>
+  </section>
+  <section name="Toys and Food">
+    <service delivery="true">
+      <item>Squeaky chicken</item>
+      <price>2.96</price>
+    </service>
+    <service delivery="true">
+      <item>Squeaky Giraffe</item>
+      <price>3.15</price>
+    </service>
+    <service delivery="true">
+      <item>Lighting balls(x3)</item>
+      <price>3.60</price>
+    </service>
+    <service delivery="true">
+      <item>Royal Canin Cocker 4Kg</item>
+      <price>18.97</price>
+    </service>
+    <service delivery="true">
+      <item>Royal Canin French Bulldog 4kg</item>
+      <price>14.96</price>
+    </service>
+    <service delivery="true">
+        <item>Royal Canin Maxi Adult</item>
+        <price>73.99</price>
+    </service>
+  </section>
+  <section name="Other services">
+    <service>
+      <item>Dog walking</item>
+      <price>12.95</price>
+    </service>
+    <service>
+      <item>Dog Hotel</item>
+      <price>12.99</price>
+    </service>
+   </section>
+</groomingservice>
+
