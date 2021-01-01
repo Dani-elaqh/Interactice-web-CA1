@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+  #welcome {
+    padding: 50px;
+  }
+}
+
+#welcome .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(0,0,0,0);
+  max-width: 900px;
+  margin: auto;
+}
+
+.site-section {
+  text-align: center;
+  padding: 60px;
+}
+
+#intro.container p {
+  font-size: larger;
+}
+
+@media (min-width: 992px) {
+  #welcome .jumbotron {
+    padding: 80px;
+  }
+}
