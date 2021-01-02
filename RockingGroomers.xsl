@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:template match="/">
         <table id="menuTable" border="1" class="indent">
@@ -8,7 +8,7 @@
                 </tr>
                 <tr>
                     <th>Selection</th>
-                    <th>Service</th>
+                    <th>Product</th>
                     <th>Price</th>
                 </tr>
             </thead>

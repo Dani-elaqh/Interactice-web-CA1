@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <groomingservice>
-  <section name="In da house services">
+  <section name="In house services">
     <service>
       <item>Wash and Blowdry - Small breeds</item>
       <price>45.95</price>
@@ -61,7 +61,7 @@
     </service>
     <service>
       <item>Dog Hotel</item>
-      <price>12.99</price>
+      <price>55.99</price>
     </service>
    </section>
 </groomingservice>
