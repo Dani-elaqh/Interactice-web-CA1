@@ -1,22 +1,22 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(107, 103, 103);
     margin: 5px;
     text-align: left;
-    color: #523819;
+    color: #328de2;
 }
 h2 {
     font-size: 140%;
-    color: #0D3427;
-    margin-top: 10px;
+    color: rgb(28, 173, 125);
+    margin-top: 25px;
 }
 p {
     font-size: 80%;
     color: #523819;
 }
 table {
-    background-color: #DACFE5;
-    border-color: #000000;
+    background-color: rgba(97, 8, 187, 0.274);
+    border-color: #00000000;
     border-width: thin;
     border-collapse: collapse;
     width: 75%;
@@ -24,19 +24,21 @@ table {
 th {
     border-color: #000000;
     font-size: 120%;
+    font-style: oblique;
     color: #0D3427;
 }
 td {
+    text-align: center;
     border-color: #000000;
     font-size: 100%;
-    color: #523819;
+    color: #143191;
     padding: 5px;
 }
 img {
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 0px;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+   
 }
 .indent {
     margin-left: 78px;

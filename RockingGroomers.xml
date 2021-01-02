@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="RockingGroomers.xsl"?>
 <groomingservice>
   <section name="In house services">
-    <service>
+    <entree>
       <item>Wash and Blowdry - Small breeds</item>
       <price>45.95</price>
-    </service>
-    <service>
+    </entree>
+    <entree>
       <item>Wash and Blowdry - Medium breeds</item>
       <price>75.95</price>
-</service>
-    <service>
+</entree>
+    <entree>
       <item>Wash and Blowdry - Large and big breeds</item>
       <price>105.95</price>
-    </service>
+    </entree>
   </section>
   <section name="Paws and hair">
-    <service>
+    <entree>
       <item>Trim nails</item>
       <price>10.95</price>
-    </service>
-    <service>
+    </entree>
+    <entree>
       <item>Mosturize pads</item>
       <price>18.95</price>
-    </service>
-    <service>
+    </entree>
+    <entree>
       <item>Styling and cuttign hair</item>
       <price>58.96</price>
-    </service>
+    </entree>
   </section>
   <section name="Toys and Food">
-    <service delivery="true">
+    <entree delivery="true">
       <item>Squeaky chicken</item>
       <price>2.96</price>
-    </service>
-    <service delivery="true">
+    </entree>
+    <entree delivery="true">
       <item>Squeaky Giraffe</item>
       <price>3.15</price>
-    </service>
-    <service delivery="true">
+    </entree>
+    <entree delivery="true">
       <item>Lighting balls(x3)</item>
       <price>3.60</price>
-    </service>
-    <service delivery="true">
+    </entree>
+    <entree delivery="true">
       <item>Royal Canin Cocker 4Kg</item>
       <price>18.97</price>
-    </service>
-    <service delivery="true">
+    </entree>
+    <entree delivery="true">
       <item>Royal Canin French Bulldog 4kg</item>
       <price>14.96</price>
-    </service>
-    <service delivery="true">
+    </entree>
+    <entree delivery="true">
         <item>Royal Canin Maxi Adult</item>
         <price>73.99</price>
-    </service>
+    </entree>
   </section>
   <section name="Other services">
-    <service>
+    <entree>
       <item>Dog walking</item>
       <price>12.95</price>
-    </service>
-    <service>
+    </entree>
+    <entree>
       <item>Dog Hotel</item>
       <price>55.99</price>
-    </service>
+    </entree>
    </section>
 </groomingservice>
 

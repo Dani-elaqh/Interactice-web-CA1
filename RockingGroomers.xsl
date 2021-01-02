@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:template match="/">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-            <link rel="stylesheet" href="css/PaddysCafe.css" />
-            <script type="text/javascript" src="js/PaddysCafe.js">x</script>
+    
         <table id="menuTable" border="1" class="indent">
             <thead>
                 <tr>
@@ -22,7 +20,7 @@
                             <xsl:value-of select="@name" />
                         </td>
                     </tr>
-                    <xsl:for-each select="service">
+                    <xsl:for-each select="entree">
                         <tr id="{position()}">
                             <xsl:attribute name="delivery">
                                 <xsl:value-of select="boolean(@delivery)" />
