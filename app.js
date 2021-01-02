@@ -1,3 +1,4 @@
+//This section is written in JavaScript, which job is to render the xml and xsl files and push it to the client in html, this so the client will not know about the transformations in the background 
 var http = require('http'), //This module provides the HTTP server functionalities
     path = require('path'), //The path module provides utilities for working with file and directory paths
     express = require('express'), //This module allows this app to respond to HTTP Requests, defines the routing and renders back the required content

@@ -1,28 +1,43 @@
-@media (min-width: 992px) {
-  #welcome {
-    padding: 50px;
-  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    margin: 5px;
+    text-align: left;
+    color: #523819;
 }
-
-#welcome .jumbotron {
-  border-radius: 20px;
-  padding: 40px;
-  background-color: rgba(0,0,0,0);
-  max-width: 900px;
-  margin: auto;
+h2 {
+    font-size: 140%;
+    color: #0D3427;
+    margin-top: 10px;
 }
-
-.site-section {
-  text-align: center;
-  padding: 60px;
+p {
+    font-size: 80%;
+    color: #523819;
 }
-
-#intro.container p {
-  font-size: larger;
+table {
+    background-color: #DACFE5;
+    border-color: #000000;
+    border-width: thin;
+    border-collapse: collapse;
+    width: 75%;
 }
-
-@media (min-width: 992px) {
-  #welcome .jumbotron {
-    padding: 80px;
-  }
+th {
+    border-color: #000000;
+    font-size: 120%;
+    color: #0D3427;
+}
+td {
+    border-color: #000000;
+    font-size: 100%;
+    color: #523819;
+    padding: 5px;
+}
+img {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+}
+.indent {
+    margin-left: 78px;
 }
